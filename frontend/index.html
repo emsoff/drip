@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    </head>
+    <body>
+    <div>
+        <ul id="example-1">
+            <li v-for="item in items" :key="item.name"  v-on:click="pour(item.name)">
+              {{ item.name }}
+            </li>
+          </ul>
+    </div>
+    <script type="text/javascript">
+
+
+        fetch('http://localhost:3000/list')
+            .then(response => response.json())
+            .then(data => {
+                var example1 = new Vue({
+                    el: '#example-1',
+                    data: {
+                        items: data
+                    },
+                    methods: {
+                        pour: function (selection) {
+                            fetch(`http://localhost:3000/pour/${selection}`)
+                            .then(response => response.json())
+                            .then(data => {
+                                alert('Done')
+                            })
+                        }
+                    }
+                })
+            });
+
+    </script>
+    </body>
+</html>
