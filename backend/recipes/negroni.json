@@ -1,6 +1,7 @@
 {
     "name" : "Negroni",
     "description" : "Nice",
+    "image" : "assets/negroni.webp",
     "recipe" : [
         {
             "ingredient" : "gin",
