@@ -1,0 +1,15 @@
+{
+    "name" : "Manhattan",
+    "description" : "Nice",
+    "image" : "assets/manhattan.jpg",
+    "recipe" : [
+        {
+            "ingredient" : "bourbon",
+            "ounces" : 2
+        },
+        {
+            "ingredient" : "vermouth",
+            "ounces" : 1
+        }
+    ]
+}

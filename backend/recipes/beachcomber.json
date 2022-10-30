@@ -1,0 +1,19 @@
+{
+    "name" : "Beachcomber",
+    "description" : "Nice",
+    "image" : "assets/beachcomber.jpg",
+    "recipe" : [
+        {
+            "ingredient" : "rum",
+            "ounces" : 1.5
+        },
+        {
+            "ingredient" : "cointreau",
+            "ounces" : 0.75
+        },
+        {
+            "ingredient" : "lime juice",
+            "ounces" : 0.5
+        }
+    ]
+}

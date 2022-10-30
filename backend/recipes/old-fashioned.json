@@ -1,0 +1,15 @@
+{
+    "name" : "Old Fashioned",
+    "description" : "Nice",
+    "image" : "assets/old-fashioned.jpg",
+    "recipe" : [
+        {
+            "ingredient" : "bourbon",
+            "ounces" : 2
+        },
+        {
+            "ingredient" : "simple syrup",
+            "ounces" : 0.25
+        }
+    ]
+}

@@ -1,15 +1,11 @@
 {
-    "name" : "Negroni",
+    "name" : "Martini",
     "description" : "Nice",
-    "image" : "assets/negroni.jpg",
+    "image" : "assets/martini.jpg",
     "recipe" : [
         {
             "ingredient" : "gin",
-            "ounces" : 1.5
-        },
-        {
-            "ingredient" : "campari",
-            "ounces" : 0.75
+            "ounces" : 2
         },
         {
             "ingredient" : "vermouth",

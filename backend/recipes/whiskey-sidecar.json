@@ -1,0 +1,19 @@
+{
+    "name" : "Whiskey Sidecar",
+    "description" : "Nice",
+    "image" : "assets/whiskey-sidecar.jpg",
+    "recipe" : [
+        {
+            "ingredient" : "bourbon",
+            "ounces" : 2
+        },
+        {
+            "ingredient" : "cointreau",
+            "ounces" : 1
+        },
+        {
+            "ingredient" : "lime juice",
+            "ounces" : 0.5
+        }
+    ]
+}

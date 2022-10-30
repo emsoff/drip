@@ -1,15 +1,15 @@
 {
-    "name" : "Negroni",
+    "name" : "Boulevardier",
     "description" : "Nice",
-    "image" : "assets/negroni.jpg",
+    "image" : "assets/boulevardier.jpg",
     "recipe" : [
         {
-            "ingredient" : "gin",
-            "ounces" : 1.5
+            "ingredient" : "bourbon",
+            "ounces" : 1.25
         },
         {
             "ingredient" : "campari",
-            "ounces" : 0.75
+            "ounces" : 1
         },
         {
             "ingredient" : "vermouth",

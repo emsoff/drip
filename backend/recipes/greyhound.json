@@ -1,7 +1,7 @@
 {
-    "name" : "Negroni",
+    "name" : "Greyhound",
     "description" : "Nice",
-    "image" : "assets/negroni.jpg",
+    "image" : "assets/greyhound.jpg",
     "recipe" : [
         {
             "ingredient" : "gin",

@@ -1,7 +1,7 @@
 {
-    "name" : "Negroni",
+    "name" : "",
     "description" : "Nice",
-    "image" : "assets/negroni.jpg",
+    "image" : "assets/",
     "recipe" : [
         {
             "ingredient" : "gin",
