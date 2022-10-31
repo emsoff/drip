@@ -65,7 +65,7 @@
             width: 400px;
             height: 400px;
             background-color: #fff;
-            position: absolute;
+            position: fixed;
             top: calc(50% - 200px);
             left: calc(50% - 200px);
             z-index: 9;
@@ -92,7 +92,7 @@
     </style>
 </head>
 
-<body class="pouring">
+<body>
     <div class="container">
         <main class="grid" id="example-1">
             <article v-for="item in items" :key="item.name">
